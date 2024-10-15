@@ -1,0 +1,75 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  margin: 0;
+}
+
+@layer components{
+  .navbar{
+    width: Fixed (1,440px)px;
+    height: Hug (77px)px;
+    padding: 26px 80px 26px 80px;
+    gap: 0px;
+    justify-content: space-between;
+    opacity: 0px;
+margin: 0;
+  }
+  .logo{
+    width: 238.89px;
+    height: 25px;
+    gap: 0px;
+    opacity: 0px;
+    
+  }
+  .home_links{
+    display: flex;
+    width: Hug (381px)px;
+    height: Hug (17px)px;
+    gap: 28px;
+    opacity: 0px;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16.94px;
+    text-align: left;
+
+  }
+  .custom-button{
+    margin-left: 10px;
+    padding: 12px 20px 12px 20px;
+    gap: 8px;
+    border-radius: 4px;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 14px;
+    letter-spacing: -0.02em;
+    text-align: left;
+
+
+  }
+  .faqs{
+    
+    width: Fixed (761px)px;
+    height: Hug (76px)px;
+    top: 20px;
+    left: 20px;
+    padding: 24px;
+    gap: 13px;
+    border-radius: 7px;
+    opacity: 0px;
+   
+  }
+  .footer{
+    width: Fixed (1,200px)px;
+    height: Hug (266px)px;
+    top: 2183px;
+    padding: 40px 60px 20px 60px;
+    gap: 40px;
+    opacity: 0px;
+    
+
+  }
+}
