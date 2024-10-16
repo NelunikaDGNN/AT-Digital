@@ -23,7 +23,7 @@ const Navbar = () => {
               fill="white"
             />
           </svg>
-          <span className="self-center text-3xl font-semibold whitespace-nowrap text-white mt-3">
+          <span className=" font-lato self-center text-3xl font-semibold whitespace-nowrap text-white mt-3">
             AT DIGITAL
           </span>
         </a>
@@ -68,7 +68,7 @@ const Navbar = () => {
           )}
         </button>
 
-        <div className="hidden md:flex space-x-8 text-white">
+        <div className="hidden md:flex space-x-8 text-white font-inter font-medium text-[14px]">
           <a href="#" className="text-light-white py-2">SERVICES</a>
           <a href="#" className="text-light-white py-2">ABOUT US</a>
           <a href="#" className="text-light-white py-2">CONTACT US</a>
@@ -102,11 +102,7 @@ const Navbar = () => {
           </button>
 
           <ul className="font-medium flex flex-col space-y-10 text-black">
-            <li>
-              <a href="#" className="block py-2 px-3 text-lg hover:text-primary-color">
-                Home
-              </a>
-            </li>
+           
             <li>
               <a href="#" className="block py-2 px-3 text-lg hover:text-primary-color">
                 Services

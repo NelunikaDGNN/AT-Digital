@@ -1,13 +1,13 @@
 import React from "react";
-import computer from "../../../assets/images/computer.png"; 
+import search from "../../../assets/images/search.png"; 
 
 const ImageSectionTwo = () => {
   return (
-    <div className="flex-shrink-0">
+    <div className="flex h-[276px] md:h-[348px]">
       <img
-        src={computer}
+        src={search}
         alt="Service"
-        className="w-full md:w-[414px] h-auto object-cover rounded-lg" // Responsive width
+        className="w-full md:w-[414px] h-full md:h-full object-cover rounded-lg" // Responsive width
       />
     </div>
   );

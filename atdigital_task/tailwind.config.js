@@ -16,11 +16,7 @@ export default {
         'gradient-start': '#1CBDDD',
         'gradient-end': '#4DCA79',
         "black-color":"#000000",
-        "secondary-color":"#F28D35",
-        "secondary-color":"#F28D35",
-        "secondary-color":"#F28D35",
-        "secondary-color":"#F28D35",
-        "secondary-color":"#F28D35",
+        
   
   
       },
@@ -29,10 +25,13 @@ export default {
       }),
       fontFamily: {
         poppins: ['Poppins', 'sans-serif'],
-        inter: ['Inter', 'sans-serif']
+        inter: ['Inter', 'sans-serif'],
+        lato:['Lato','sans-serif']
       },
     },
   },
   plugins: [],
 }
+
+
 

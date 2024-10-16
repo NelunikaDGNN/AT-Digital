@@ -14,9 +14,9 @@ const HeroSection = () => {
         backgroundPosition: 'center',
       }}
     >
-      <div className=" heading absolute top-[354px] left-[80px] w-[630px] h-auto p-[24px] bg-custom-gradient opacity-100  "> 
+      <div className=" heading absolute bottom-0 md:bottom-[40px]  left-[0px] md:left-[60px] w-full md:w-[630px] h-auto p-[24px] bg-custom-gradient opacity-100  "> 
       <div className='description '>
-        <p className="font-inter text-light-white text-[48px] font-bold leading-[48px] tracking[-0.02em] text-left ml-4">
+        <p className="font-inter text-light-white text-[36px]  md:text-[48px] font-bold leading-[48px] tracking[-0.02em] text-left ml-4">
           We crush your competitors, goals, and sales records - without the B.S.
         </p>
         </div>

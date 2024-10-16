@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <footer className="bg-primary-color text-white p-10 text-center mt-6 footer">
       <div className="grid grid-cols-1 md:grid-cols-2 sm:gap-10 justify-evenly">
-        <div className="left-side md:ml-20 p-4 sm:w-[450px] ">
+        <div className="left-side  p-4 max-w-[450px] ">
           <div className='flex items-center gap-3'>
             <svg
               width="47"
@@ -18,37 +18,37 @@ const Footer = () => {
                 fill="white"
               />
             </svg>
-            <span className="self-center text-3xl font-semibold whitespace-nowrap text-white mt-3">
+            <span className=" font-lato self-center text-3xl font-semibold whitespace-nowrap text-white mt-3">
               AT DIGITAL
             </span>
           </div>
-          <p className='text-left mt-3'>Your goal is our target. Not anything in between. We use online marketing platforms and tools to achieve single objective - your business results.</p>
+          <p className='font-lato text-left mt-3 '>Your goal is our target. Not anything in between. We use online marketing platforms and tools to achieve single objective - your business results.</p>
         </div>
         
-        <div className='flex flex-col sm:flex-row sm:justify-between md:justify-evenly p-4 right-side'>
-          <div className='rigt-left mb-4 md:mb-0'>
-            <h4 className="font-bold text-left" id='middle-right'>Our Technologies</h4>
-            <ul className='text-left cursor-pointer'>
-              <li>ReactJS</li>
-              <li>NodeJS</li>
-              <li>NextJS</li>
-              <li>Gatsby</li>
+        <div className='flex flex-col sm:flex-row sm:justify-between md:justify-evenly p-4 right-side gap-2  md:gap-8'>
+          <div className='rigt-left mb-4 md:mb-0 font-inter'>
+            <h4 className="font-semibold text-left text-[21px] mb-2" id='middle-right'>Our Technologies</h4>
+            <ul className='font-medium text-left text-[14px] cursor-pointer '>
+              <li className='mb-2'>ReactJS</li>
+              <li className='mb-2'>NodeJS</li>
+              <li className='mb-2'>NextJS</li>
+              <li className='mb-2'>Gatsby</li>
             </ul>
           </div>
           <div className='right-right'>
-            <h4 className="font-bold text-left">Our Services</h4>
-            <ul className='text-left cursor-pointer'>
-              <li>Web & Mobile App Development</li>
-              <li>Digital Strategy Consulting</li>
+            <h4 className="font-semibold text-left text-[21px] mb-2">Our Services</h4>
+            <ul className='font-medium text-left text-[14px] cursor-pointer'>
+              <li className='mb-2'>Web & Mobile App Development</li>
+              <li className='mb-2'>Digital Strategy Consulting</li>
             </ul>
           </div>
         </div>
       </div>
       
       <div className='mt-3 flex flex-col items-center'>
-        <div className='w-[calc(100%-2rem)] md:w-1/3  border-t border-gray-300 mb-2 ' />
+        <div className='w-[calc(100%-2rem)] max-w-[768px]  border-t border-gray-300 mb-2 ' />
         <div className='p-2 text-center'>
-          <p className='text-white cursor-pointer'>Privacy Policy  | Terms & Conditions</p>
+          <p className='text-white cursor-pointer font-inter text-[14px] font-medium'>Privacy Policy  | Terms & Conditions</p>
         </div>
       </div>
     </footer>

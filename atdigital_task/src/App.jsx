@@ -15,8 +15,12 @@ const App = () => {
     <div>
      <Navbar /> 
      <HeroSection/>
-      <Services/>
-      {/* <Section /> */}
+
+    
+     <Services/>
+     <Section />
+
+      
       <Faqs />
      <Footer />   
     </div>

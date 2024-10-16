@@ -4,15 +4,13 @@ import ImageSectionTwo from "./ImageSection/ImageSectionTwo";
 
 const SectionTwo = () => {
   return (
-    <div
-      id="About"
-      className="text-black flex mt-12 justify-center bg-red-400 shadow-xl mx-0 md:mx-auto bg-opacity-30 rounded-lg w-[1064px] h-[414px] gap-[108px] opacity-100" 
-    >
-      <div className="flex flex-col md:flex-row items-center gap-28 w-full h-full">
+
+      <div className="flex flex-col md:flex-row-reverse items-center   w-full h-full justify-center mx-0 md:mx-auto bg-opacity-30 rounded-lg max-w-[1064px] opacity-100 p-4">
+      <ImageSectionTwo />
         <Section />
-        <ImageSectionTwo />
+       
       </div>
-    </div>
+ 
   );
 };
 

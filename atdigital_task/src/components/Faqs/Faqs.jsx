@@ -23,26 +23,27 @@ function Faqs() {
   ];
 
   return (
-    <div className="max-w-2xl mx-auto p-4 mt-3 mb-8">
-      <h2 className="font-poppins text-center text-2xl font-bold text-title-color mb-6 my-10">
+    <div className=" mx-auto p-4 mt-3 mb-8 max-w-[896px]">
+      <h2 className="font-poppins text-center text-[27px] font-semibold text-title-color mb-6 my-10">
         Frequently Asked Questions
       </h2>
-      <div className="space-y-4 font-inter">
+      <div className="space-y-4 font-inter text-[20px] md:text-[22px] ">
         {faqs.map((faq, index) => (
-          <div key={index} className="rounded-md shadow-sm bg-faqfill-color">
+          <div key={index} className="rounded-md shadow-sm bg-faqfill-color p-4">
             <button
-              className={`w-full flex justify-between items-center p-4 text-left font-semibold 
+              className={`w-full flex felx-row justify-between   text-left font-medium 
                 ${activeIndex === index ? "text-title-color" : "text-black-color"} 
-                sm:w-full sm:h-[60px]`} // Increased width and decreased height for small screens
+                sm:w-full `} // Increased width and decreased height for small screens
+                
               onClick={() => toggleFAQ(index)}
             >
               {faq.question}
-              <span className="text-xl">
+              <span className="text-3xl ml-4">
                 {activeIndex === index ? "−" : "+"}
               </span>
             </button>
             {activeIndex === index && (
-              <div className="p-4 text-gray-600 sm:h-[80px]">{faq.answer}</div> // Adjusted height for answer
+              <div className="mt-2 text-gray-600 text-[16px] md:text-[18px]">{faq.answer}</div> // Adjusted height for answer
             )}
           </div>
         ))}
